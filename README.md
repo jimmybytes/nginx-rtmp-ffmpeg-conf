@@ -1,6 +1,3 @@
-## :whale:[docker-nginx-rtmp-ffmpeg](https://hub.docker.com/repository/docker/ar414/nginx-rtmp-ffmpeg)  
-[简体中文](./CN-README.md)      
-
 ### Support
 [![jetbrains](./assets/images/jetbrains.svg)](https://www.jetbrains.com/?from=nginx-rtmp-ffmpeg)
 
