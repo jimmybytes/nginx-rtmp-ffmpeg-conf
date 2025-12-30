@@ -8,7 +8,7 @@ Based on the configuration and deployment of [docker-nginx-rtmp](https://github.
 * Nginx 1.16.1（Stable version compiled from source code）
 * nginx-rtmp-module 1.2.1（Compile from source）
 * ffmpeg 4.2.1（Compile from source）
-* Configured [nginx.conf](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf/blob/master/nginx.conf)
+* Configured [nginx.conf](https://github.com/jimmybytes/nginx-rtmp-ffmpeg-conf/blob/master/nginx.conf)
     * Only support 1920*1080 (if you need to support other resolutions, please refer to [nginx.conf](https://github.com/alfg/docker-nginx-rtmp/blob/master/nginx.conf)）
     * Realize two-way shunt
         * localhost
@@ -66,7 +66,7 @@ ssl_certificate_key /opt/certs/example.com.key;
     * With watermark：Need to be diverted to other servers
     
 ## :page_facing_up:Brief explanation of configuration file (diversion, watermark and watermark position)
-> [Full configuration file](https://github.com/ar414-com/nginx-rtmp-ffmpeg-conf/blob/master/nginx.conf)
+> [Full configuration file](https://github.com/jimmybytes/nginx-rtmp-ffmpeg-conf/blob/master/nginx.conf)
 
 * RTMP configuration
 ```bash
